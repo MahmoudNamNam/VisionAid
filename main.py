@@ -16,7 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI(title="Scene Classifier API for Blind Assistance")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can restrict it later
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
